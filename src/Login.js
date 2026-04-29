@@ -16,6 +16,8 @@ function Login() {
 
       localStorage.setItem("token", res.data);
       alert("Login successful!");
+      window.location.href = "/expenses";
+
     } catch (err) {
       console.log(err);
       alert("Login failed");
