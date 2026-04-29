@@ -33,7 +33,7 @@ function Expenses() {
     if (token) {
     fetchExpenses();
     }
-  }, []);
+  }, [token]);
 
   // Delete
   const handleDelete = async (id) => {

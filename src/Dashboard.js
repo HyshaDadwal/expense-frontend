@@ -29,7 +29,7 @@ function Dashboard() {
     if (token) {
     fetchExpenses();
     }
-  }, []);
+  }, [token]);
 
   const fetchExpenses = async () => {
     try {
