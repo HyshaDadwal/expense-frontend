@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://expense-backend-mp26.onrender.com"
+  baseURL: process.env.https://expense-backend-mp26.onrender.com
 });
 
 API.interceptors.request.use((req) => {
